@@ -1,3 +1,5 @@
+# FIXME: This build results in security issues that need fixing. See
+# idpe#14769.
 FROM maven:3.6.3-openjdk-15 AS builder
 
 COPY . /src/
